@@ -1,0 +1,59 @@
+.Header {
+    transition: .5s;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(40,40,40,0);
+    overflow: hidden;
+    border-right: 1px solid rgba(255, 255, 255, 0);
+    color: rgba(40, 40, 40, 0);
+}
+.Header:hover {
+    transition: .5s;
+    width: 20vw;
+    background-color: rgba(40,40,40,0.8);
+    border-right: 1px solid white;
+    box-shadow: 0 0 10px black;
+    color: rgb(230,230,230);
+}
+.Logon {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    max-width: 80px;
+}
+.Link {
+    transition: .5s;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    .Bar_fx {
+        transition: .5s;
+        margin: 0;
+        padding: 0;
+        width: 0%;
+        height: 2px;
+        background-color: red;
+    }
+}
+.Link:hover {
+    transition: .5s;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    .Bar_fx {
+        transition: .5s;
+        width: 100%;
+    }
+}
